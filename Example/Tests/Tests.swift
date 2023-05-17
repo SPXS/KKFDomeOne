@@ -1,5 +1,4 @@
 import XCTest
-import KKFDomeOne
 
 class Tests: XCTestCase {
     
