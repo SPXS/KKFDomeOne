@@ -1,15 +1,15 @@
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# gitignore 贡献者：请记得更新 Global/Xcode.gitignore、Objective-C.gitignore & Swift.gitignore
 
-## User settings
+## 用户设置
 xcuserdata/
 
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+## 兼容 Xcode 8 及更早版本（Xcode 9 起不需要忽略）
 *.xcscmblueprint
 *.xccheckout
 
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+## 兼容 Xcode 3 及更早版本（Xcode 4 起不需要忽略）
 build/
 DerivedData/
 *.moved-aside
@@ -22,10 +22,10 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-## Obj-C/Swift specific
+## Obj-C/Swift 特定
 *.hmap
 
-## App packaging
+## 应用打包
 *.ipa
 *.dSYM.zip
 *.dSYM
@@ -36,45 +36,45 @@ playground.xcworkspace
 
 # Swift Package Manager
 #
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# 如果要避免将 Swift Package Manager 依赖的源代码提交到版本控制中，请添加此行。
 # Packages/
 # Package.pins
 # Package.resolved
 # *.xcodeproj
 #
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
+# Xcode 会自动生成包含 .xcworkspacedata 文件和 xcuserdata 的目录
+# 除非你为项目添加了包配置文件，否则不需要此目录
 # .swiftpm
 
 .build/
 
 # CocoaPods
 #
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
+# 我们不建议将 Pods 目录添加到 .gitignore。但是
+# 你应该自己权衡利弊，相关信息请访问：
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
 #
-# Add this line if you want to avoid checking in source code from the Xcode workspace
+# 如果要避免将 Xcode workspace 的源代码提交到版本控制中，请添加此行
 # *.xcworkspace
 
 # Carthage
 #
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# 如果要避免将 Carthage 依赖的源代码提交到版本控制中，请添加此行。
 # Carthage/Checkouts
 
 Carthage/Build/
 
-# Accio dependency management
+# Accio 依赖管理
 Dependencies/
 .accio/
 
 # fastlane
 #
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
+# 建议不要将截图存储在 git 仓库中。
+# 相反，需要时使用 fastlane 重新生成截图。
+# 有关推荐设置的更多信息，请访问：
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
 fastlane/report.xml
@@ -82,9 +82,12 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Code Injection
+# 代码注入
 #
-# After new code Injection tools there's a generated folder /iOSInjectionProject
+# 新的代码注入工具会在根目录生成一个 /iOSInjectionProject 文件夹
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Claude Code 工作目录
+.claude/
